@@ -1,0 +1,134 @@
+.head{
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-family: arial,sans-serif;
+    padding-right: 15px;
+}
+
+.navbar1{
+    padding: 5px;
+    margin: 0 5px;
+    color: #202124;
+}
+
+.navbar2{
+   float: right;
+   height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 140px;
+}
+
+.Google{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.search-icon{
+    position: relative;
+    left: 35px;
+}
+
+.inputbox{
+    
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.micro-icon{
+    position: relative;
+    right: 35px;
+}
+
+.button-area{
+    margin-top: 20px;
+}
+
+.button-style{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-style:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer{
+    position: relative;
+    top: 270px;
+
+}
+
+.footer1{
+    padding: 15 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #dadce0;;
+}
+
+.footer2{
+    padding: 0 20px;
+    
+    
+}
+
+.footer2-item{
+    position: relative;
+    top: 14px;
+}
+
+.footer2-item2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 10px;
+}
+
+.item{
+    color: #70757a;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.item2{
+
+}
