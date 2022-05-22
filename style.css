@@ -17,11 +17,32 @@ a{
     color: #202124;
 }
 
+.navbar1-item{
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    text-decoration: none;
+}
+
+.navbar1-item:hover{
+    text-decoration: underline;
+}
+
+
 .navbar2{
    float: right;
    height: 48px;
     line-height: normal;
     padding: 0 4px;
+}
+
+.navbar2-item{
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    text-decoration: none;
+}
+
+.navbar2-item:hover{
+    text-decoration: underline;
 }
 
 .main{
@@ -37,11 +58,12 @@ a{
     max-width: 100%;
     object-fit: contain;
     object-position: center bottom;
-    width: auto;
+    width: 320px;
+    height: 130px;
 }
 
 .input-area{
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .search-icon{
@@ -49,12 +71,13 @@ a{
     left: 35px;
 }
 
-.inputbox{
-    
-    width: 584px;
-    height: 46px;
+.inputbox{  
+    width: 582px;
+    height: 44px;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .micro-icon{
@@ -91,44 +114,34 @@ a{
 }
 
 .footer{
-    position: relative;
-    top: 270px;
-
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%;
 }
 
-.footer1{
-    padding: 15 30px;
+.first-line{
+    padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: #70757a;
-    background-color: #dadce0;;
 }
 
-.footer2{
-    padding: 0 20px;
-    
-    
-}
-
-.footer2-item{
-    position: relative;
-    top: 14px;
-}
-
-.footer2-item2{
+.second-line{
     display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
-.item{
-    color: #70757a;
-    padding: 0px;
+.second-line-item{
     font-size: 14px;
     font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #70757a;
+    padding: 15px;
+    cursor: pointer;
 }
 
-.item2{
-
+.second-line-item:hover{
+    text-decoration: underline;
 }
